@@ -1,0 +1,26 @@
+.TableHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .info {
+    h2 {
+      font-weight: 600;
+      font-size: 22px;
+      line-height: 33px;
+    }
+
+    h3 {
+      margin-top: 7px;
+      font-weight: 400;
+      font-size: 14px;
+      color: #16c098;
+      line-height: 21px;
+    }
+  }
+
+  .controls {
+    display: flex;
+    gap: 16px;
+  }
+}

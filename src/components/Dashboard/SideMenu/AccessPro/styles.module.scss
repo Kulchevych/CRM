@@ -1,0 +1,40 @@
+.AccessPro {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+  padding: 26px 24px 22px;
+  width: 250px;
+  height: 150px;
+  background: linear-gradient(164deg, #eaabf0 0%, #4623e9 100%);
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+
+  p {
+    line-height: 21px;
+    color: white;
+  }
+
+  button {
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    align-items: center;
+    width: 203px;
+    height: 40px;
+    color: #4925e9;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 2px 4px 4px 0 rgba(79, 42, 234, 0.17);
+    background: #fff;
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #5c38ff;
+      color: white;
+    }
+  }
+}

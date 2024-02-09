@@ -1,0 +1,25 @@
+.Tbody {
+  tr {
+    position: relative;
+    justify-content: space-between;
+    height: 69px;
+    color: #292d32;
+
+    td {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 21px;
+      vertical-align: middle;
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 1px;
+      background-color: #eee;
+    }
+  }
+}

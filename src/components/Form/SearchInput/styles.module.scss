@@ -1,0 +1,36 @@
+.SearchInput {
+  display: flex;
+  position: relative;
+  padding: 0 40px;
+  width: 216px;
+  height: 38px;
+  font-weight: 400;
+  font-size: 14px;
+  border: 1px solid transparent;
+  border-radius: 12px;
+  box-shadow: 0 10px 60px 0 rgba(226, 236, 249, 0.5);
+  background: #fff;
+
+  &.focused {
+    border-color: #5932ea;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 7px;
+    left: 8px;
+    width: 24px;
+    height: 24px;
+    background-image: url("../../../assets/images/form/search.svg");
+  }
+
+  input {
+    border: none;
+    outline: none;
+
+    &::placeholder {
+      color: #b5b7c0;
+    }
+  }
+}

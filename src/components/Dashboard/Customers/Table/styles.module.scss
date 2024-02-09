@@ -1,0 +1,22 @@
+.Table {
+  position: relative;
+  padding: 30px 44px 40px 38px;
+  height: 812px;
+  min-width: 968px;
+  border-radius: 30px;
+  background-color: #fff;
+  box-shadow: 0 10px 60px 0 rgba(226, 236, 249, 0.5);
+
+  table {
+    margin-top: 40px;
+    width: 100%;
+  }
+
+  .noData {
+    height: calc(100% - 91px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+  }
+}

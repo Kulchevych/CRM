@@ -1,0 +1,26 @@
+.Cell {
+  padding: 4px 12px;
+  
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80px;
+    height: 29px;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    color: #008767;
+    border-radius: 4px;
+    border: 1px solid #00b087;
+    vertical-align: middle;
+    background-color: rgba(22, 192, 152, 0.38);
+
+  }
+  &.inactive div {
+    color: #df0404;
+    background-color: #ffc5c5;
+    border-color: #df0404;
+  }
+
+}

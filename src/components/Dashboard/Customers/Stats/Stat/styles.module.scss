@@ -1,0 +1,64 @@
+.Stat {
+  display: flex;
+  width: 274px;
+  height: 87px;
+  gap: 20px;
+  align-items: center;
+  border-right: 1px solid #f0f0f0;
+
+  &:last-child {
+    border: none;
+  }
+
+  .info {
+    .label {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 21px;
+      color: #acacac;
+    }
+
+    .value {
+      display: block;
+      margin-top: 4px;
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 32px;
+      color: #333;
+    }
+
+    .type {
+      margin-top: 6px;
+      display: flex;
+      align-items: center;
+      gap: 3px;
+      font-size: 12px;
+      font-weight: 400;
+      color: #292d32;
+      line-height: 18px;
+
+      span {
+        font-size: 12px;
+      }
+
+      .users {
+        margin-left: 8px;
+        position: relative;
+        display: flex;
+
+        li {
+          margin-left: -8px;
+        }
+
+        .user {
+          width: 26px;
+          height: 26px;
+          object-fit: contain;
+          border: 2px solid white;
+          border-radius: 50%;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

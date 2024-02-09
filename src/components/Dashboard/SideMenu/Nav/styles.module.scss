@@ -1,0 +1,26 @@
+.Nav {
+  margin-top: 54px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+@media (max-width: 1360px) {
+  .SideMenu {
+    padding: 40px 36px;
+    max-width: 102px;
+
+    
+    .logo {
+      img {
+        width: 30px;
+        height: 30px;
+      }
+      
+      .dashboard, .version {
+        display: none;
+      }
+    }
+  }
+}
+

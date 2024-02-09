@@ -1,0 +1,12 @@
+.DashboardPage {
+  display: flex;
+  height: 100vh;
+
+  .container {
+    padding: 40px 95px 78px 92px;
+    flex: 1;
+    min-height: 900px;
+    background-color: rgb(250, 251, 255);
+    overflow: auto;
+  }
+}

@@ -83,7 +83,9 @@ export default function TableFooter({ data, activePage, setActivePage }) {
       <ul>
         <li
           onClick={goToPrevPage}
-          className={classNames({ [classes.disabled]: activePage === 1 })}
+          className={classNames(classes.page, {
+            [classes.disabled]: activePage === 1,
+          })}
           tabIndex={0}
           role="listbox"
           onKeyDown={(event) => {
@@ -123,7 +125,7 @@ export default function TableFooter({ data, activePage, setActivePage }) {
         })}
         <li
           onClick={goToNextPage}
-          className={classNames({
+          className={classNames(classes.page, {
             [classes.disabled]: activePage === pages.length,
           })}
           tabIndex={0}

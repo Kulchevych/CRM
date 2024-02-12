@@ -96,7 +96,11 @@ export default function TableFooter({ data, activePage, setActivePage }) {
         </li>
         {paginationList.map((page, index) => {
           if (page === "...") {
-            return <span key={page + 1 + index}>...</span>;
+            return (
+              <li className={classes.doots} key={page + 1 + index}>
+                ...
+              </li>
+            );
           }
           return (
             <li

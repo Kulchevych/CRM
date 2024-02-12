@@ -16,7 +16,7 @@
     display: flex;
     gap: 12px;
 
-    li {
+    .page {
       padding: 6px 9px;
       display: flex;
       justify-content: center;
@@ -43,6 +43,10 @@
         background-color: #d3d3d3;
         pointer-events: none;
       }
+    }
+
+    .doots {
+      align-self: flex-end;
     }
   }
 }
